@@ -4,7 +4,7 @@ interface i18nObject {
 }
 const zh_CN: i18nObject = {
     lang: {
-        "zh-CN": "簡體中文",
+        "zh-TW": "正體中文",
         "en-US": "英語 - English",
         "ja-JP": "日語 - 日本語",
     },
@@ -145,4 +145,4 @@ const zh_CN: i18nObject = {
         Psych: "激勵",
     },
 };
-export default zh_CN;
+export default zh_TW;
