@@ -4,7 +4,7 @@ interface i18nObject {
 }
 const ja_JP: i18nObject = {
     lang: {
-        "zh-CN": "中国語（簡体字） - 简体中文",
+        "zh-TW": "中国語（繁体字） - 繁體中文",
         "en-US": "英語 - English",
         "ja-JP": "日本語",
     },

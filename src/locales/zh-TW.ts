@@ -2,7 +2,7 @@
 interface i18nObject {
     [key: string]: string | i18nObject;
 }
-const zh_CN: i18nObject = {
+const zh_TW: i18nObject = {
     lang: {
         "zh-TW": "正體中文",
         "en-US": "英語 - English",

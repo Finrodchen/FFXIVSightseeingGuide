@@ -9,7 +9,7 @@ import HomePage from "./components/home.vue";
 import WeatherOverviewPage from "./components/weatheroverview.vue";
 
 import en_US from "./locales/en-US";
-import zh_CN from "./locales/zh-CN";
+import zh_TW from "./locales/zh-TW";
 import ja_JP from "./locales/ja-JP";
 
 import "jquery";
@@ -52,7 +52,7 @@ const dateTimeFormats: DateTimeFormats = {
             hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: true,
         },
     },
-    "zh-CN": {
+    "zh-TW": {
         "short": {
             hour: "2-digit", minute: "2-digit", second: "2-digit",
             hour12: localStorage.getItem("hourSystem") === "24" ? false : true,
@@ -67,12 +67,12 @@ const dateTimeFormats: DateTimeFormats = {
 
 const messages: LocaleMessages = {
     "en-US": en_US,
-    "zh-CN": zh_CN,
+    "zh-TW": zh_TW,
     "ja-JP": ja_JP,
 };
 
 const i18n: VueI18n = new VueI18n({
-    locale: "zh-CN",
+    locale: "zh-TW",
     messages,
     dateTimeFormats,
 });
